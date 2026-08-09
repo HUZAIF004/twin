@@ -41,14 +41,5 @@ python app.py
 
 This will launch the Gradio server. It will provide a local URL (e.g., `http://127.0.0.1:7860/`) which you can open in your browser to interact with your twin.
 
-## Deployment
-
-You can deploy this application for free on [Render](https://render.com/). 
-
-For complete step-by-step instructions on deploying your twin to the web, please see the `RENDER_INSTRUCTIONS.md` file located in the parent directory (`1_foundations/RENDER_INSTRUCTIONS.md`).
-
-## Customization
-
-- **Resume & Summary**: Replace `resume.pdf` and `summary.txt` with your own documents to personalize the AI's knowledge.
-- **Styling**: The aesthetic look of the app (colors, fonts, glassmorphism) can be customized within `styles.py`.
-- **System Prompt**: Adjust the AI's personality and instructions within `context.py`.
+## Demo Link
+https://twin-t5ao.onrender.com/
